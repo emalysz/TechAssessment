@@ -1,0 +1,21 @@
+{
+  "name": "challenge2",
+  "version": "1.0.1",
+  "description": "How to set up aXe with WebdriverJS for automated testing.",
+  "scripts": {
+    "postinstall": "jasmine init",
+    "test": "jasmine spec/test.js"
+  },
+  "author": {
+    "name": "Marcy Sutton",
+    "organization": "Deque Systems",
+    "url": "http://deque.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.1.0",
+    "axe-webdriverjs": "^1.1.5",
+    "jasmine": "^2.8.0",
+    "selenium-webdriver": "^2.53.3"
+  }
+}

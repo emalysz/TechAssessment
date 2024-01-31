@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f18d83;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #e27ba5;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #9c75e9;
+}
+
+h1 {
+  text-align: center;
+}
+
+li {
+  cursor: pointer;
+  border: 3px solid #f1ab46;
+  margin-bottom: 12px;
+  padding: 8px;
+}
+
+/** BOOK ENTRIES **/
+
+#bookList {
+  list-style: none;
+  padding: 0;
+}
+
+.book-span {
+  font-weight: bold;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.book-description {
+  display: block;
+}
+
+/** PAGINATOR **/
+
+#pagination-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination-button {
+  margin: 0 5px;
+  cursor: pointer;
+  background-color: #c972da;
+}
+
+/** SEARCH STATS **/
+
+#searchStats {
+  margin-top: 10px;
+}
+
+#searchStats > span {
+  font-size: 12px;
+}

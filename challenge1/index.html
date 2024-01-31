@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Books API Search</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Google Books API Search</h1>
+    <input aria-label="Enter your book search" type="text" id="searchInput" placeholder="Enter a book title" tabindex="1">
+    <button aria-label="Searches books" onclick="searchBooks()" tabindex="2">Search</button>
+
+    <div id="searchResults" role="region" aria-label="Provide search results">
+      <ul id="bookList"></ul>
+      <div id="pagination-container"></div>
+      <div id="searchStats" role="region" aria-label="Provide search stats">
+        <span id="numResults"></span>
+        </br>
+        <span id="mostCommonAuthor"></span>
+        </br>
+        <span id="earliestPubDate"></span>
+        </br>
+        <span id="recentPubDate"></span>
+        </br>
+        <span id="serverResponseTime"></span>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
