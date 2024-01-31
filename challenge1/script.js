@@ -78,7 +78,7 @@ function formatResults(results, paginationIndex) {
         let descriptionSpan = document.createElement("span");
         descriptionSpan.className = "book-description";
         descriptionSpan.textContent = result.volumeInfo.description ? result.volumeInfo.description : "No description found";
-        myButton.setAttribute('aria-label', 'Display description of book');
+        descriptionSpan.setAttribute('aria-label', 'Display description of book');
         bookItem.appendChild(descriptionSpan);
       } else {
         // Toggle the display of description
