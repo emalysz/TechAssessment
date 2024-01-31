@@ -6,7 +6,7 @@ This is a web application that searches through the Google Books API according t
 
 ## How to Run
 
-Spin up a webserver (such as `python3 -m http.server`) or load index.html directly in a web browser.
+Spin up a webserver (such as `python3 -m http.server`) and load `localhost:8000` or load index.html directly in a web browser.
 
 ## Design/Technical Decisions
 
